@@ -1,0 +1,49 @@
+<!-- Jumbtron -->
+<div class="row">
+  <div class="col-xs-12">
+  <div class="jumbotron">
+  <%= @username %>
+</div>
+  </div>
+</div>
+
+<!-- creating pannels for profile -->
+<div class="row">
+<div class="col-xs-3">
+  <div class="panel panel-default">
+  <div class="panel-body">
+  <p>Profile</p>
+</div>
+</div>
+</div>
+
+<div class="col-xs-6">
+  <%= render 'components/post_form' %>
+  <% for @p in @posts %>
+  <div class="panel panel-default">
+  <div class="panel-body">
+  <p><%= @p.content %></p>
+</div>
+</div>
+<% end %>
+</div>
+
+<div class="col-xs-3">
+  <div class="panel panel-default">
+  <div class="panel-body">
+  <p>Who To Follow</p>
+</div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-body">
+    <p>trends</p>
+    </div>
+    </div>
+</div>
+</div>
+
+
+
+
+<!-- row 2 for trends-->
+
