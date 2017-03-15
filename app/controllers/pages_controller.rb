@@ -18,5 +18,6 @@ class PagesController < ApplicationController
 
   def home
     @posts = Post.all
+    @newPost = Post.new
   end
 end
