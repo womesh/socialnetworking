@@ -1,11 +1,9 @@
 == README
+* The project mainly focuses on the college social networking system which helps the students to interact with each other and solve their problems.The students can create official and unofficial groups of their interest and post the news regarding the happenings in the college.Anyone can join the groups and any one can post in to the groups as only the admin of the group can manipulate the data.
+* My team member : Akansha Jaiswal
+  https://github.com/Akansha5/ShardaProject
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
+* Ruby version 
 
 * System dependencies
 
@@ -21,8 +19,5 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
